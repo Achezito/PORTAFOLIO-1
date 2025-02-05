@@ -11,10 +11,10 @@ export default function MyForm() {
   };
 
   return (
-    <View style={styles.container}>;
+    <View style={styles.container}>
       <TextInput
         style={styles.input}
-        placeHolder="Type SomeThing"
+        placeholder="Type Something"  // Aquí "placeholder" debe estar bien escrito (no "placeHolder")
         value={text}
         onChangeText={setText}
       />
@@ -22,8 +22,8 @@ export default function MyForm() {
       <Text style={styles.resultText}>Text to Show: {displayText}</Text>
     </View>
   );
-}
-
+   }
+  
 const styles = StyleSheet.create({
   container: {
     flex: 1,

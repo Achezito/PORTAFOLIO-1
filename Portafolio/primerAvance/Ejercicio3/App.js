@@ -37,9 +37,17 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 16,
+    paddingHorizontal: 20,  // Márgenes laterales
   },
   input: {
+    width: '90%',           // No ocupa toda la pantalla en dispositivos grandes
     marginBottom: 16,
-  }
+    backgroundColor: '#f8f8f8', // Color más suave
+    borderRadius: 8,        // Bordes redondeados
+  },
+  button: {
+    width: '90%',           // Tamaño consistente
+    borderRadius: 8,        // Bordes redondeados
+    marginTop: 10,          // Espaciado superior
+  },
 });
